@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+    tools:context=".Activities.RepoDetailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:gravity="center"
+        >
+   <ImageView
+       android:id="@+id/owner_avatar_details_screen"
+       android:layout_width="100dp"
+       android:layout_height="100dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/tv_repo_name_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:lines="1"
+            android:textColor="@color/Black"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+
+
+            />
+        <TextView
+            android:id="@+id/tv_repo_full_name_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:lines="1"
+            android:textColor="@color/Black"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+
+
+            />
+        <TextView
+            android:id="@+id/tv_repo_language_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:lines="1"
+            android:textColor="@color/Black"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+
+
+            />
+        <TextView
+            android:id="@+id/tv_repo_watchers_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:lines="1"
+            android:textColor="@color/Black"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+
+
+            />
+        <TextView
+            android:id="@+id/tv_repo_forks_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:lines="1"
+            android:layout_margin="@dimen/text_margin"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/text_size"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv_repo_uploaded_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:lines="1"
+            android:textColor="@color/Black"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv_repo_description_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="AAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:textColor="@color/Black"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
